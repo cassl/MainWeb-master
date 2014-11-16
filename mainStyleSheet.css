@@ -1,0 +1,203 @@
+@charset "utf-8";
+/* CSS Document */
+html, body { margin: 0; padding: 0 }
+body{
+	background-color:#EBEBEB;
+	/*font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; */
+	font-weight: 100;
+	padding:0px;
+	margin:0px;
+	font-family: 'Roboto', sans-serif;
+}
+@font-face {
+    font-family: 'Steelfish'; /*a name to be used later*/
+    src: url('http://team4719.ca/fonts/steelfish.ttf'); /*URL to font*/
+}
+@font-face {
+    font-family: 'Code'; /*a name to be used later*/
+    src: url('fonts/CODEL.ttf'); /*URL to font*/
+
+}
+.codeFont {
+    letter-spacing: 4px;
+	font-family: 'Code';
+}
+
+#title{
+	padding:15px 0;
+	min-width:100%;
+	height: 75px;
+	color:black;
+	background-color:#EBEBEB;	
+	font-size:20px;
+	text-align:center;
+	font-weight:800;
+	
+}
+/*----- Menu Outline -----*/
+#nav {
+	margin: 0 auto 0 auto;
+	min-width:1000px;
+	height:40px;
+	background-color:#EBEBEB;
+}
+#nav ul {
+	list-style: none;
+	width: 900px;
+	height:40px;
+	margin: 0 auto 0 auto;
+	background-color:#EBEBEB;
+	}
+#nav li {
+	float: left; }
+#nav li a {
+	display: inline-block;
+	text-decoration: none;
+	font-weight: lighter;
+	text-align:center;
+	width:180px;
+	font-size:20px;
+	color:black;
+	letter-spacing: 3px;
+	font-family: 'Code';
+	background-color:#EBEBEB;
+	line-height:40px;
+	
+	 }
+
+#nav li a:hover {
+	background-color: #CCC;
+	
+	 }
+
+/* Dropdown Menu Attempt - pls do not judge me*/	
+/*
+#nav ul ul{
+	background: #5f6975; border-radius: 0px; padding: 0;
+	position: absolute; top: 100%;
+	}
+nav ul ul li {
+		float: none; 
+		border-top: 1px solid #6b727c;
+		border-bottom: 1px solid #575f6a;
+		position: relative;
+}
+		nav ul ul li a {
+			padding: 15px 40px;
+			color: #fff;
+		}	
+			nav ul ul li a:hover {
+				background: #CCC;
+			}
+
+}
+*/
+
+
+
+
+#topWrapper{
+	background-color:#363636;
+	background-size:100%;
+	background-repeat:no-repeat;
+	width:100%;
+	min-width:1000;
+	background-position:center;
+	background-image:url('src/topbackgroundblur.jpg');
+	height:500px;
+}
+a{
+	color: white;
+}
+#topContainer{
+	padding-left:20px;
+	padding-right:20px;
+	padding-top:50px;
+	margin: 0 auto 0 auto;
+	width:1000px;
+	height:500px;
+	font-weight:50;
+	background-color:rgba(0, 0, 0, 0.5);
+	color:white;
+	text-align:center;
+
+}
+#mainWrapper{
+	background-color:#363636;
+	width:100%;
+	min-width:1000px;
+	
+}
+/* color #222222 use later darker */
+#main{
+	float:clear;
+	margin: 0 auto 0 auto;
+	padding:20px;
+	border-right-width:auto;
+	width:1000px;
+	background-color:#363636;
+	color:white;
+	text-align:center;
+	height:auto;
+	overflow:auto;
+	text-align: justify;
+	
+}
+#lowerPictureWrap{
+	background-color:#363636;
+	background-size:100%;
+	width:100%;
+	min-width:1000px;
+	background-image:url("src/robot1.png");
+	height:500px;
+}
+
+#leftColumn{
+	float:left;
+	width:450px;
+
+
+}
+#rightColumn{
+	float:right;
+	width:450px;
+
+	overflow:auto;
+}
+
+
+#bottomWrap{
+	background-color:#363636;
+	width:100%;
+	min-width:1000px;
+
+}
+#bottom{
+	margin: 0 auto 0 auto;
+	padding:20px;
+	border-right-width:auto;
+	width:1000px;
+	background-color:#363636;
+	color:white;
+	text-align:center;
+	
+}
+#bottom img{
+	position:relative;
+	top:-50px;
+	height:auto;
+	width:300px;
+	padding: 10px;
+	padding-top:0px;
+}
+#footwrap{
+	background-color:#4D4645;
+	text-align:center;
+	height:200px;
+	color:white;
+	width:100%;
+	min-width:1000px;
+}
+#footer{
+	background-color:#4D4645;
+}
